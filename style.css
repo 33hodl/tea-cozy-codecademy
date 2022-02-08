@@ -1,0 +1,126 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: block;
+    background-color: black;
+    top: 0px;
+}
+
+.logo {
+    padding-left: 10px;
+    vertical-align: middle;
+    height: 50px;
+    float: left;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.mission-container {
+    background-image: url(../Images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+#featured {
+    width: 1000px;
+    margin: auto;
+}
+
+.trend-container {
+    max-width: 1000px;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.banner {
+    background-image: url(../Images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+}
+
+.text-top {
+    font-weight: bold;
+}
+
+.box-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px 15px 20px;
+    opacity: 1;
+    align-items: center;
+    display: list-item;
+    list-style: none;
+    background-color: black;
+}
+
+.footer {
+    max-height: 200px;
+}
+
+.copyright {
+    left: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
