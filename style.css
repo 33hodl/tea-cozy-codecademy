@@ -47,7 +47,7 @@ html {
 }
 
 .mission-container {
-    background-image: url(../Images/img-mission-background.jpg);
+    background-image: url(https://33hodl.github.io/tea-cozy-codecademy/img-mission-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
@@ -83,7 +83,7 @@ html {
 }
 
 .banner {
-    background-image: url(../Images/img-locations-background.jpg);
+    background-image: url(https://33hodl.github.io/tea-cozy-codecademy/img-locations-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
